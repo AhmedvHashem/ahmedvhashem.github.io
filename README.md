@@ -1,2 +1,2 @@
-# ahmedvhashem.github.io
+# ahmedvhashem.dev
 Personal Dev Blog
