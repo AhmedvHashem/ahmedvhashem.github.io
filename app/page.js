@@ -8,6 +8,13 @@ export default function Home() {
         <a href="/" rel="noopener noreferrer">
           <p>Ahmed Hashem | أحمد هاشم</p>
         </a>
+        <a
+          href="https://adplist.org/mentors/ahmed-hashem"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>Book a free mentor session </p>
+        </a>
       </div>
 
       <div className={styles.center}>
@@ -28,13 +35,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Image
-              src="/facebook.svg"
-              alt="Facebook Logo"
-              className={styles.sociallogo}
-              width={48}
-              height={48}
-              priority
-            />
+            src="/facebook.svg"
+            alt="Facebook Logo"
+            className={styles.sociallogo}
+            width={48}
+            height={48}
+            priority
+          />
         </a>
 
         <a
@@ -44,13 +51,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Image
-              src="/twitter.svg"
-              alt="Twitter Logo"
-              className={styles.sociallogo}
-              width={48}
-              height={48}
-              priority
-            />
+            src="/twitter.svg"
+            alt="Twitter Logo"
+            className={styles.sociallogo}
+            width={48}
+            height={48}
+            priority
+          />
         </a>
 
         <a
@@ -60,13 +67,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Image
-              src="/linkedin.svg"
-              alt="Linkedin Logo"
-              className={styles.sociallogo}
-              width={48}
-              height={48}
-              priority
-            />
+            src="/linkedin.svg"
+            alt="Linkedin Logo"
+            className={styles.sociallogo}
+            width={48}
+            height={48}
+            priority
+          />
         </a>
 
         <a
@@ -76,13 +83,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Image
-              src="/github.svg"
-              alt="Github Logo"
-              className={styles.sociallogo}
-              width={48}
-              height={48}
-              priority
-            />
+            src="/github.svg"
+            alt="Github Logo"
+            className={styles.sociallogo}
+            width={48}
+            height={48}
+            priority
+          />
         </a>
       </div>
     </main>
