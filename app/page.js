@@ -19,8 +19,8 @@ export default function Home() {
 
       <div className={styles.center}>
         <Image
-          src="/ntstudio.png"
-          alt="NTStudio Logo"
+          src="/hashem.jpeg"
+          alt="Avatar"
           width={256}
           height={256}
           priority
