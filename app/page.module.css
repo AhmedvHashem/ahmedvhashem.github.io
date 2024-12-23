@@ -164,10 +164,13 @@
   }
 
   .description a {
+    width: inherit;
     margin: 1rem;
   }
 
   .description p {
+    width: inherit;
+    text-align: center;
     background-color: rgba(var(--callout-rgb), 0.5);
     border: 1px solid rgba(var(--callout-border-rgb), 0.3);
     border-radius: var(--border-radius);
