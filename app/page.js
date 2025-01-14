@@ -1,22 +1,32 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./page.module.css";
+import ReviewsModal from "@/app/reviews";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <a href="/" rel="noopener noreferrer">
-          <p>Ahmed Hashem | أحمد هاشم</p>
+          <p>
+            Ahmed Hashem | أحمد هاشم <br />
+            <br /> <strong>Lead Software Engineer</strong>
+          </p>
         </a>
-        <a
-          href="https://adplist.org/mentors/ahmed-hashem"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p>Book a free mentor session </p>
-        </a>
-      </div>
 
+        <p>
+          <a
+            href="https://adplist.org/mentors/ahmed-hashem"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Book a free mentor session
+          </a>
+          <br />
+          <ReviewsModal />
+        </p>
+      </div>
       <div className={styles.center}>
         <Image
           src="/hashem.jpeg"
