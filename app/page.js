@@ -8,12 +8,13 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <a href="/" rel="noopener noreferrer">
-          <p>
-            Ahmed Hashem | أحمد هاشم <br />
-            <br /> <strong>Lead Software Engineer</strong>
-          </p>
-        </a>
+        <p>
+          <a href="/" rel="noopener noreferrer">
+            Ahmed Hashem | أحمد هاشم
+          </a>
+          <br />
+          <strong>Lead Software Engineer</strong>
+        </p>
 
         <p>
           <a
@@ -38,7 +39,7 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-        <a
+        {/* <a
           href="https://www.facebook.com/AhmedvHashem"
           className={styles.card}
           target="_blank"
@@ -52,23 +53,7 @@ export default function Home() {
             height={48}
             priority
           />
-        </a>
-
-        <a
-          href="https://www.twitter.com/AhmedvHashem"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src="/twitter.svg"
-            alt="Twitter Logo"
-            className={styles.sociallogo}
-            width={48}
-            height={48}
-            priority
-          />
-        </a>
+        </a> */}
 
         <a
           href="https://www.linkedin.com/in/AhmedvHashem"
@@ -95,6 +80,38 @@ export default function Home() {
           <Image
             src="/github.svg"
             alt="Github Logo"
+            className={styles.sociallogo}
+            width={48}
+            height={48}
+            priority
+          />
+        </a>
+
+        <a
+          href="https://www.medium.com/@AhmedvHashem"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/medium.svg"
+            alt="Medium Logo"
+            className={styles.sociallogo}
+            width={48}
+            height={48}
+            priority
+          />
+        </a>
+
+        <a
+          href="https://www.twitter.com/AhmedvHashem"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/twitter.svg"
+            alt="Twitter Logo"
             className={styles.sociallogo}
             width={48}
             height={48}
