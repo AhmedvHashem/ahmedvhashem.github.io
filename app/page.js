@@ -56,14 +56,14 @@ export default function Home() {
         </a> */}
 
         <a
-          href="https://www.linkedin.com/in/AhmedvHashem"
+          href="https://www.twitter.com/AhmedvHashem"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
-            src="/linkedin.svg"
-            alt="Linkedin Logo"
+            src="/twitter.svg"
+            alt="Twitter Logo"
             className={styles.sociallogo}
             width={48}
             height={48}
@@ -72,14 +72,14 @@ export default function Home() {
         </a>
 
         <a
-          href="https://www.github.com/AhmedvHashem"
+          href="https://www.linkedin.com/in/AhmedvHashem"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
-            src="/github.svg"
-            alt="Github Logo"
+            src="/linkedin.svg"
+            alt="Linkedin Logo"
             className={styles.sociallogo}
             width={48}
             height={48}
@@ -104,14 +104,14 @@ export default function Home() {
         </a>
 
         <a
-          href="https://www.twitter.com/AhmedvHashem"
+          href="https://www.github.com/AhmedvHashem"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
-            src="/twitter.svg"
-            alt="Twitter Logo"
+            src="/github.svg"
+            alt="Github Logo"
             className={styles.sociallogo}
             width={48}
             height={48}
