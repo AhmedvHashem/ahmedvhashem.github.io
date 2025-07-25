@@ -6,6 +6,11 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Ahmed Hashem | أحمد هاشم',
   description: 'Ahmed Hashem | أحمد هاشم',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/shortcuticon.png',
+    apple: '/appleicon.png',
+  },
 }
 
 export default function RootLayout({ children }) {
