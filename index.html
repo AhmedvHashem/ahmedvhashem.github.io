@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Hashem | أحمد هاشم</title>
+    <meta name="description" content="Ahmed Hashem | أحمد هاشم" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/shortcuticon.png" />
+    <link rel="apple-touch-icon" href="/appleicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <main class="main">
+      <div class="description">
+        <p>
+          <a href="/" rel="noopener noreferrer">
+            Ahmed Hashem | أحمد هاشم
+          </a>
+          <br />
+          <strong>Lead Software Engineer</strong>
+        </p>
+
+        <p>
+          <a
+            href="https://adplist.org/mentors/ahmed-hashem"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Book a free mentor session
+          </a>
+          <br />
+          <strong class="reviews-trigger" id="openReviews">
+            Mentee Reviews
+          </strong>
+        </p>
+      </div>
+
+      <div class="center">
+        <img
+          src="/hashem.jpeg"
+          alt="Avatar"
+          width="256"
+          height="256"
+        />
+      </div>
+
+      <div class="grid">
+        <a
+          href="https://www.linkedin.com/in/AhmedvHashem"
+          class="card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/linkedin.svg"
+            alt="Linkedin Logo"
+            class="sociallogo"
+            width="48"
+            height="48"
+          />
+        </a>
+
+        <a
+          href="https://www.github.com/AhmedvHashem"
+          class="card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/github.svg"
+            alt="Github Logo"
+            class="sociallogo"
+            width="48"
+            height="48"
+          />
+        </a>
+
+        <a
+          href="https://www.medium.com/@AhmedvHashem"
+          class="card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/medium.svg"
+            alt="Medium Logo"
+            class="sociallogo"
+            width="48"
+            height="48"
+          />
+        </a>
+
+        <a
+          href="https://www.twitter.com/AhmedvHashem"
+          class="card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/twitter.svg"
+            alt="Twitter Logo"
+            class="sociallogo"
+            width="48"
+            height="48"
+          />
+        </a>
+      </div>
+    </main>
+
+    <dialog id="reviewsModal" class="reviews-dialog">
+      <button class="dialog-close" id="closeReviews" aria-label="Close">
+        &times;
+      </button>
+      <section class="dialog-content">
+        <iframe
+          src="https://adplist.org/widgets/reviews?src=ahmed-hashem"
+          title="All Reviews"
+          width="100%"
+          height="100%"
+          loading="lazy"
+          style="border: 0; overflow: hidden"
+        ></iframe>
+      </section>
+    </dialog>
+  </body>
+</html>
