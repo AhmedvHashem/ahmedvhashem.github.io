@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import styles from "./page.module.css";
 import ReviewsModal from "@/app/reviews";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -39,22 +39,6 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-        {/* <a
-          href="https://www.facebook.com/AhmedvHashem"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src="/facebook.svg"
-            alt="Facebook Logo"
-            className={styles.sociallogo}
-            width={48}
-            height={48}
-            priority
-          />
-        </a> */}
-
         <a
           href="https://www.linkedin.com/in/AhmedvHashem"
           className={styles.card}
